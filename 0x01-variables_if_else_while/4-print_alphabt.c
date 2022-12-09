@@ -2,13 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - prints alphabet in lower case
- * followed by a new line, except q and e
+ * main - prints alphabet in lower case except e and q
  * Return: Always 0
  */
 int main(void)
 {
-	ch la;
+	char la;
 
 	for (la = 'a'; la <= 'z'; la++)
 		if (la != 'e' && != 'q')
