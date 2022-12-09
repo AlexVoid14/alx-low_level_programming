@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - prints all digits from 0 to 9
+ * main - prints all strings from 0 to 9
  * Return: Always 0
  */
 int main(void)
