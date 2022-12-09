@@ -5,13 +5,15 @@
  */
 int main(void)
 {
-	int a;
+	char c = 'a';
+	int num;
 
-	for (a = 48; a <= 58; a++)
-		putchar(a);
-	if (a != 57)
-		putchar(',');
-	putchar(' ');
+	for (num = 0; num < 16; num++)
+	if (num < 10)
+		putchar(num + '0');
+	else
+		putchar(c)
+	c++;
 	putchar('\n');
 	return (0);
 {
