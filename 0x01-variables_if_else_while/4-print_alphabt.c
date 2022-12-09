@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - prints alphabet in lower case except e and q
  * Return: Always 0
