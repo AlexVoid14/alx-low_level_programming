@@ -2,10 +2,8 @@
 
 /**
  * main - prints alphabet 10 times
- *
- * Return: Always 0
  */
-int print_alphabet_x10(void);
+void print_alphabet_x10(void);
 {
 	int ten;
 	char lo;
@@ -14,5 +12,4 @@ int print_alphabet_x10(void);
 		for (lo = 'a'; lo <= 'z'; lo++)
 			_putchar(lo);
 		putchar('\n');
-		return (0);
 }
