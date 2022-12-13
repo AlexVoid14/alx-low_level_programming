@@ -5,7 +5,7 @@
  *
  * Return: Always 0
  */
-int main(void)
+int print_alphabet_x10(void);
 {
 	int ten;
 	char lo;
