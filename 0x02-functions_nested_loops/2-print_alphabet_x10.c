@@ -3,15 +3,21 @@
 /**
  * print_alphabet_x10 - prints alphabet 10 times
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	int ten;
-	char lo;
+	char ch;
+	int i;
 
-	for (ten = 0; ten <= 9; ten++)
-	{
-		for (lo = 'a'; lo <= 'z'; lo++)
-			_putchar(lo);
-		putchar('\n');
-	}
+	i = 0;
+		while (i < 10)
+		{
+			ch = 'a';
+			while (ch <= 'z')
+			{
+				_putchar('\n');
+				ch++;
+			}
+			_putchar('\n');
+			i++
+		}
 }
