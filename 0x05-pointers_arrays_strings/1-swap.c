@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 /**
  * swap_int -function that swaps the values of the intergers.
  * @a: first entry
