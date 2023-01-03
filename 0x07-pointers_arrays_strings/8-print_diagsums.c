@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio>
 /**
- * print_diagsums - prints sum of two diagonalsof a squares
+ * print_diagsums - prints sum of two diagonals of a squares
  * @a: pointer to array
- * @size: size of array
+ * @size: input
  * Return: void
  */
 void print_diagsums(int *a, int size)
