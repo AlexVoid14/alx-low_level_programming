@@ -1,4 +1,4 @@
-#include <stlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * wordnos - counts no of words in a given string
