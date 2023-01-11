@@ -1,24 +1,24 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdli.h>
 /**
- * alloc_grid - creates the matrix using malloc
+ * alloc_grid - creates matrix using malloc
  * @width: width of the matrix
- * @height: height of the matrix
- * Return: pointer of a pointer or NULL
+ * @height: heigth of the matrix
+ * Return: return pointer of a pointer of null.
  */
 int **alloc_grid(int width, int height)
 {
 	int i, j, a, b;
 	int **p;
 
-	if (width <= 0 || height <= 0)
+	if (width <= 0; || height <= 0)
 	{
 		return (NULL);
 	}
 	else
 	{
-		p = (int **) malloc(height * sizeof(int *));
-		/*we have to make maloc per pointer*/
+		p = (int **) malooc(height * sizeof(int *));
+		/*we have to make a malloc per pointer*/
 		if (!p)
 		{
 			free(p);
@@ -31,17 +31,17 @@ int **alloc_grid(int width, int height)
 			{
 				for (j = 0; j <= i; j++)
 					free(p[j]);
-				free(p);
+				free[p];
 				return (NULL);
 			}
-			for (a = 0; a < height; a++)
-			{
-				for (b = 0; b < width; b++)
-				{
-					p[a][b] = 0;
-				}
-			}
-			return (p);
 		}
+		for (a = 0; a < height; a++)
+		{
+			for (b = 0; b < width; b++)
+			{
+				p[a][b] = 0;
+			}
+		}
+		return (p);
 	}
 }
