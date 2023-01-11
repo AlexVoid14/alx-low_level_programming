@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - program that multiplies two numbers
  * @argc: argument count
@@ -17,7 +16,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	for (index = 1, index < argc; index++)
+	for (index = 1; index < argc; index++)
 	{
 		multiplication = multiplication * atoi(argv[index]);
 	}
