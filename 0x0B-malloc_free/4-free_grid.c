@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * free_grid - frees a 2D grid created in alloc_grid.
- * @grid: pointer to pointer.
- * @height: height of grid.
+ * free_grid - frees a 2D grind in a malloc grid
+ * @grid: pointer to pointer
+ * @height: height of grid
  * Return: void
  */
 void free_grid(int **grid, int height)
