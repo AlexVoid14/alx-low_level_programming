@@ -2,7 +2,7 @@
 
 /**
  * listint_len - return the number of elements of in a linked list
- * @h: linked list type listint_tto transverse
+ * @h: linked list type listint_t to traverse
  *
  * Return: number of nodes
  */
