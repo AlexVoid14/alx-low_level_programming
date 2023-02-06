@@ -288,7 +288,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	{
 		close_elf(o);
 		dprintf(STDERR_FILENO, "Error: Can't read file %s\n", argv[1]);
-		exit(98)
+		exit(98);
 	}
 	r = read(o, header, sizeof(Elf64_Ehdr));
 	if (r == -1)
